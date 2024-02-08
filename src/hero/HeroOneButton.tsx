@@ -15,10 +15,13 @@ const HeroOneButton = (props: IHeroOneButtonProps) => (
       {props.title}
     </h1>
     <div className="my-4 text-2xl">{props.description}</div>
-    <div className="py-4 text-xl text-black">
-      I'm a software engineer at Skillify, with a background in actuarial
-      science. building the Frontend of Websites and Web Applications that leads
-      to the success of the overall product
+    <div className="flex justify-center py-4 text-xl text-black">
+      {' '}
+      <p className=" w-1/2">
+        I'm a software engineer at Skillify, with a background in actuarial
+        science. building the Frontend of Websites and Web Applications that
+        leads to the success of the overall product
+      </p>
     </div>
 
     <div className=" hidden justify-center md:flex"></div>
