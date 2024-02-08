@@ -18,9 +18,8 @@ const HeroOneButton = (props: IHeroOneButtonProps) => (
     <div className="flex justify-center py-4 text-xl text-black">
       {' '}
       <p className=" w-1/2">
-        I'm a software engineer at Skillify, with a background in actuarial
-        science. building the Frontend of Websites and Web Applications that
-        leads to the success of the overall product
+        I'm an ex-actuarial software engineer at Skillify, focused on building
+        product focused Android and React Apps.
       </p>
     </div>
 

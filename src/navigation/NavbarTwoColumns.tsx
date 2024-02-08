@@ -11,14 +11,27 @@ const NavbarTwoColumns = () => (
       className=" scale-105 justify-between bg-white p-2 md:mx-auto md:flex  md:w-screen     "
       id="Navbar"
     >
-      <div className=" flex items-center space-x-4 font-semibold text-black transition-transform duration-300 hover:scale-105 md:px-12">
+      <div className=" flex items-center space-x-4 font-semibold text-black transition-transform duration-300  md:px-12">
         {' '}
         <Image
           src={LuckyProfile}
           alt={''}
-          className="  size-20 rounded-full" // Adjust the height as needed
+          className="  size-16 rounded-full" // Adjust the height as needed
         />{' '}
         <div className="text-4xl">{AppConfig.site_name}</div>
+        <div className="block hover:scale-105 md:hidden">
+          {' '}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="32"
+            height="32"
+            viewBox="12 0 50 40"
+          >
+            <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+          </svg>
+        </div>
       </div>
       <div className="mr-8 hidden  md:mr-20 md:flex md:items-center md:space-x-8 ">
         <a

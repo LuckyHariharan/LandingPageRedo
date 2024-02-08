@@ -35,9 +35,9 @@ const Hero = () => (
         <HeroOneButton
           title={
             <>
-              {'Lucky Hariharan\n'}
+              {'Software Developer\n'}
               <br />
-              <span className="text-primary-500">Software Engineer</span>
+              <span className="text-primary-500">at Skillify</span>
             </>
           }
           description=""
