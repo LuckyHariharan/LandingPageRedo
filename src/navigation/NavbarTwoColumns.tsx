@@ -1,21 +1,26 @@
-import type { ReactNode } from 'react';
+import Image from 'next/image';
 
-type INavbarProps = {
-  logo: ReactNode;
-  children: ReactNode;
-};
+import { AppConfig } from '@/utils/AppConfig';
 
-const NavbarTwoColumns = (props: INavbarProps) => (
+import LuckyProfile from '../templates/Lucky2.png';
+
+const NavbarTwoColumns = () => (
   <div
-    className=" ml-6 scale-105 justify-between  md:flex  md:scale-100  "
+    className=" w-full scale-105 justify-between bg-white  p-2 md:flex     "
     id="Navbar"
   >
     <div className="">
-      <div className=" transition-transform duration-300 hover:scale-105">
-        {props.logo}
+      <div className="flex items-center space-x-4 px-2 font-semibold text-black transition-transform duration-300 hover:scale-105">
+        {' '}
+        <Image
+          src={LuckyProfile}
+          alt={''}
+          className="  size-20 rounded-full" // Adjust the height as needed
+        />{' '}
+        <div className="text-4xl">{AppConfig.site_name}</div>
       </div>
     </div>
-    <div className="hidden md:mr-4 md:flex md:items-center md:space-x-8 ">
+    <div className="mr-8  hidden md:flex md:items-center md:space-x-8 ">
       <a
         href="https://github.com/LuckyHariharan"
         className=" w-12 transition-transform duration-300 hover:scale-105  "
