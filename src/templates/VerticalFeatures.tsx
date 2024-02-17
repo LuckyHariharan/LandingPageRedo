@@ -47,7 +47,7 @@ const VerticalFeatures = () => (
         {' '}
         <CollapsibleFeature
           title="Skillify Android App"
-          description="Developed features for the Skillify Android app including the lesson screen to see all lessons, quizzes and assignments, the bacdges screen to track their progress, and the coaches screen to schedule a coaching call."
+          description="Developed features for the Skillify Android app including the lesson screen to see all lessons, quizzes and assignments, the badges screen to track their progress, and the coaches screen to schedule a coaching call."
           image="/assets/images/background3.png"
           imageAlt="Third feature alt text"
           link="https://github.com/skillify-ca/skillify-android"
