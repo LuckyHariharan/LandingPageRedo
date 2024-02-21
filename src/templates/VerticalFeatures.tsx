@@ -59,7 +59,7 @@ const VerticalFeatures = () => (
           image="/assets/images/background4.png"
           imageAlt="Third feature alt text"
           link="https://diary-ai.vercel.app/"
-          github="https://github.com/skillify-ca/skillify-android"
+          github="https://github.com/LuckyHariharan/DiaryAI-NativeAndroid"
         />
         <CollapsibleFeature
           title="Actuarial Illustator  Extension"
