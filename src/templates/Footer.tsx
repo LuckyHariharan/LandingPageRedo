@@ -21,7 +21,7 @@ const Footer = () => (
             </a>
 
             <a
-              href="https://www.aedin.com/in/lakshman-hariharan/"
+              href="https://www.linkedin.com/in/lakshman-hariharan/"
               className=" w-12 transition-transform duration-300 hover:scale-105  "
             >
               <svg
