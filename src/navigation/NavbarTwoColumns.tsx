@@ -14,6 +14,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
       <div className=" transition-transform duration-300 hover:scale-105">
         {props.logo}
       </div>
+      <img src=""></img>
     </div>
     <div className="hidden md:mr-4 md:flex md:items-center md:space-x-8 ">
       <a

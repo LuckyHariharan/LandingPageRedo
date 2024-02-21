@@ -1,9 +1,6 @@
-import Image from 'next/image';
 import type { ReactNode } from 'react';
 
 import { CenteredFooterAlt } from '@/footer/CenteredFooterAlt';
-
-import LuckyProfile from '../templates/Lucky.jpg';
 
 type IHeroOneButtonProps = {
   title: ReactNode;
@@ -12,13 +9,13 @@ type IHeroOneButtonProps = {
 };
 
 const HeroOneButton = (props: IHeroOneButtonProps) => (
-  <header className="space-y-2 text-center">
-    <div className=" flex justify-center md:hidden">
-      <Image
+  <header className=" space-y-2 text-center">
+    <div className=" flex  md:hidden">
+      {/* <Image
         src={LuckyProfile}
         alt={''}
         className="  h-1/2 w-1/2 md:w-1/4" // Adjust the height as needed
-      />
+      /> */}
     </div>
     <h1 className=" text-5xl font-bold leading-hero text-gray-900">
       {props.title}
@@ -26,13 +23,13 @@ const HeroOneButton = (props: IHeroOneButtonProps) => (
     <div className="my-4 text-2xl">{props.description}</div>
 
     <div className=" hidden justify-center md:flex">
-      <Image
+      {/* <Image
         src={LuckyProfile}
         alt={''}
         className=" md:w-1/8 mb-4 h-1/2 w-1/5" // Adjust the height as needed
-      />
+      /> */}
     </div>
-    <div className=" justify-center  md:hidden md:h-0">
+    <div className="justify-center align-middle  md:hidden md:h-0">
       <CenteredFooterAlt
         iconList={
           <div>
@@ -71,7 +68,7 @@ const HeroOneButton = (props: IHeroOneButtonProps) => (
         logo={undefined}
       ></CenteredFooterAlt>
     </div>
-    <div>{props.button}</div>
+    <div className="flex justify-center ">{props.button}</div>
   </header>
 );
 
