@@ -41,7 +41,7 @@ const VerticalFeatures = () => (
     <Section
       yPadding="py-8"
       title="Portfolio of Projects"
-      description="Frontend and Android Apps"
+      description="Frontend Projects and Android Apps"
     >
       <div className="space-y-8">
         {' '}
