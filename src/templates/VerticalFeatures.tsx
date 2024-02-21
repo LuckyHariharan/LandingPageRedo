@@ -47,7 +47,7 @@ const VerticalFeatures = () => (
         {' '}
         <CollapsibleFeature
           title="Skillify Android App"
-          description="Responsible for the end-to-end development of various features within the Skillify Android app. Contributed to the creation of essential components such as the lesson screen, enabling students to access lessons, quizzes, and assignments seamlessly. Additionally, designed and implemented the badges screen, allowing users to monitor their progress, and the coaches screen, facilitating the scheduling of coaching calls."
+          description="Scoped and fully built the Skillify Android app. Developed essential components such as the lesson screen, badges screen, and a coaches screen. Distributed APK to students through the Skillify student portal."
           image="/assets/images/background3.png"
           imageAlt="Third feature alt text"
           link="https://skillify.ca/"
