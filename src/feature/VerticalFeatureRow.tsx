@@ -39,7 +39,12 @@ const VerticalFeatureRow: React.FC<IVerticalFeatureRowProps> = (props) => {
   return (
     <div className={verticalFeatureClass}>
       <div className="w-full px-8 text-center sm:w-1/2">
-        <h3 className="text-4xl font-semibold text-gray-900">{props.title}</h3>
+        <a className="hover:text-blue-500 hover:underline " href={props.link}>
+          {' '}
+          <h3 className="text-4xl font-semibold text-gray-900 hover:text-blue-500 hover:underline">
+            {props.title}
+          </h3>
+        </a>
         <div className="mt-6 text-2xl leading-9">{props.description}</div>
         <Link href={props.github}>
           <p className=" mt-4 cursor-pointer text-2xl font-extrabold text-blue-500 underline hover:text-blue-700">
@@ -48,7 +53,7 @@ const VerticalFeatureRow: React.FC<IVerticalFeatureRowProps> = (props) => {
         </Link>
       </div>
 
-      <div className="h-full w-full p-4 transition-transform  hover:scale-105 hover:shadow-lg sm:w-1/2">
+      <div className="size-full p-4 transition-transform hover:scale-105  hover:shadow-lg sm:w-1/2">
         {backgroundImage && (
           <Link href={props.link}>
             <Image height={'1200'} src={backgroundImage} alt={props.imageAlt} />
