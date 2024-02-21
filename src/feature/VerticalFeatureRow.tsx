@@ -5,6 +5,7 @@ import Link from 'next/link';
 import background1 from 'public/assets/images/png2.png';
 import background3 from 'public/assets/images/png3.png';
 import background2 from 'public/assets/images/png4.png';
+import background4 from 'public/assets/images/png5.png';
 import React, { useEffect, useState } from 'react';
 
 type IVerticalFeatureRowProps = {
@@ -29,6 +30,8 @@ const VerticalFeatureRow: React.FC<IVerticalFeatureRowProps> = (props) => {
       setBackgroundImage(background2);
     } else if (props.image === '/assets/images/background3.png') {
       setBackgroundImage(background3);
+    } else if (props.image === '/assets/images/background4.png') {
+      setBackgroundImage(background4);
     }
   }, [props.image]);
 
