@@ -37,7 +37,12 @@ const Hero = () => (
             <>
               {'Software Engineer\n'}
               <br />
-              <span className="text-primary-500">at Skillify</span>
+              <span className="text-primary-500">
+                at{' '}
+                <a className=" hover:underline" href="skillify.ca">
+                  Skillify
+                </a>
+              </span>
             </>
           }
           description=""
