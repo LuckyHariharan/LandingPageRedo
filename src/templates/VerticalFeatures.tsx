@@ -54,6 +54,14 @@ const VerticalFeatures = () => (
           github="https://github.com/skillify-ca/skillify-android"
         />
         <CollapsibleFeature
+          title="AI Diary Android & Web App"
+          description="Developed a personal AI Diary using GeminiAI, to encourage self-reflection, growth, and a space to process emotions. Used Kotlin, Jetpack Compose, and Jetpack Navigation for Android, and Nodejs, React, TypeScript for the web app."
+          image="/assets/images/background3.png"
+          imageAlt="Third feature alt text"
+          link="https://skillify.ca/"
+          github="https://github.com/skillify-ca/skillify-android"
+        />
+        <CollapsibleFeature
           title="Actuarial Illustator  Extension"
           description="Actuarial Illustrator is a chrome extension that calculates policy values for any given age, gender, or smoking status. In V1.03 update users can upload their own actuarial tables for precise policy values."
           image="/assets/images/background1.png"
