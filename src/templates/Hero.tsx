@@ -11,7 +11,7 @@ import { Logo } from './Logo';
 
 const Hero = () => (
   <div className="h-screen flex flex-col bg-[url('https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA')]">
-    <Background>
+    <Background color={''}>
       <Section yPadding="md:py-0">
         <NavbarTwoColumns
           logo={<Logo xl />}

@@ -21,8 +21,8 @@ const Banner = () => {
     <motion.div animate={controls}>
       <Section>
         <CTABanner
-          title="Contact Me"
-          subtitle="For any business inquiries"
+          title=""
+          subtitle="Contact Me"
           button={
             <ScrollLink to="Navbar" smooth={true} duration={500}>
               <Button>Back to the Top</Button>
