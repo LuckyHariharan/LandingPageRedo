@@ -68,7 +68,7 @@ const HeroOneButton = (props: IHeroOneButtonProps) => (
         logo={undefined}
       ></CenteredFooterAlt>
     </div>
-    <div className="flex justify-center ">{props.button}</div>
+    <div className="flex justify-center py-12">{props.button}</div>
   </header>
 );
 
