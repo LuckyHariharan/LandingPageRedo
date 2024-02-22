@@ -7,14 +7,13 @@ type INavbarProps = {
 
 const NavbarTwoColumns = (props: INavbarProps) => (
   <div
-    className=" ml-6 scale-105 justify-between  md:flex  md:scale-100  "
+    className=" mx-auto ml-2 scale-105 justify-between  md:flex  md:scale-100  "
     id="Navbar"
   >
     <div className="">
-      <div className=" transition-transform duration-300 hover:scale-105">
+      <div className="mr-12 transition-transform duration-300  hover:scale-105 md:ml-0">
         {props.logo}
       </div>
-      <img src=""></img>
     </div>
     <div className="hidden md:mr-4 md:flex md:items-center md:space-x-8 ">
       <a
