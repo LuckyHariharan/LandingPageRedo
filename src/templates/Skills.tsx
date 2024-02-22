@@ -28,7 +28,7 @@ export const Skills = ({ ...rest }: SectionProps) => {
   return (
     <motion.div ref={ref} initial={{ opacity: 0 }} animate={controls}>
       <Section {...rest}>
-        <div className="mb-4 flex w-full flex-col items-center hover:text-slate-500  md:w-full">
+        <div className=" flex w-full flex-col items-center hover:text-slate-500  md:w-full">
           <SectionHeader title="Skills" description="" />
           <SkillsGrid />
         </div>

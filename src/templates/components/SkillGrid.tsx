@@ -2,7 +2,7 @@ import { SkillsGridItem } from './SkillGridItem';
 
 export const SkillsGrid = () => {
   return (
-    <div className="mb-6 grid grid-cols-2 gap-12 rounded-md bg-primary-100 px-12 py-8 md:grid-cols-5 md:gap-8">
+    <div className="my-8 grid grid-cols-2 gap-8 rounded-md bg-primary-100  px-12 py-8 md:my-4 md:grid-cols-5 md:gap-8 md:py-8">
       <SkillsGridItem
         imageSrc="https://www.vectorlogo.zone/logos/android/android-icon.svg"
         title="Android"
