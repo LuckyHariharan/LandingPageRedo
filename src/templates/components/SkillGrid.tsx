@@ -11,7 +11,7 @@ export const SkillsGrid = () => {
       <SkillsGridItem imageSrc="typescriptlang-icon.svg" title="TypeScript" />
       <SkillsGridItem imageSrc="logo-javascript.svg" title="JavaScript" />
       <SkillsGridItem imageSrc="nextjs-icon.svg" title="Next.js" />
-      <SkillsGridItem imageSrc="tailwindcss-icon.svg" title="Tailwind CSS" />
+      <SkillsGridItem imageSrc="tailwindcss-icon.svg" title="TailwindCSS" />
       <SkillsGridItem imageSrc="graphql.png" title="GraphQL" />
     </div>
   );
