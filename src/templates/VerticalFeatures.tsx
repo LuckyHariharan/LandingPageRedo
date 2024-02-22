@@ -79,7 +79,7 @@ const VerticalFeatures = () => {
             />
             <CollapsibleFeature
               title="Actuarial Illustator  Extension"
-              description="Actuarial Illustrator is a chrome extension that calculates policy values for any given age, gender, or smoking status. In V1.03 update users can upload their own actuarial tables for precise policy values."
+              description="Actuarial Illustrator is an open source extension that calculates policy values for any given age, gender, or smoking status. In V1.03  users can upload their own actuarial tables for precise policy values."
               image="/assets/images/background1.png"
               imageAlt="First feature alt text"
               link="https://chrome.google.com/webstore/detail/actuarial-present-value/dkpjafmjabacmgmjkogfmepbbkghenll"
