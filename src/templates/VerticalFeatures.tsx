@@ -55,7 +55,7 @@ const VerticalFeatures = () => {
     <motion.div ref={ref} initial={{ opacity: 0, y: 25 }} animate={controls}>
       <div id="ProjectWork">
         <Section
-          yPadding="py-8"
+          yPadding="py-0"
           title="Portfolio of Projects"
           description="Frontend Projects and Android Apps"
         >
