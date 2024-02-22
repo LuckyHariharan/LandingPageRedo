@@ -28,7 +28,7 @@ export const SkillsGrid = () => {
         title="TypeScript"
       />
       <SkillsGridItem
-        imageSrc="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
+        imageSrc="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
         title="JavaScript"
       />
       <SkillsGridItem
