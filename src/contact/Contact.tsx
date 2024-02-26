@@ -36,7 +36,7 @@ const Contact = ({ button }: ContactProps) => {
           action="https://getform.io/f/501c4b9f-b28b-46aa-a746-858fb243f3da"
           method="POST"
         >
-          <div className="mt-4 flex flex-col space-y-4 text-2xl font-bold md:place-items-center lg:mx-40">
+          <div className="mt-4 flex flex-col space-y-4 text-2xl font-bold text-black md:place-items-center lg:mx-40">
             <label htmlFor="email">Email:</label>
             <input
               type="email"
