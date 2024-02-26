@@ -62,7 +62,12 @@ const Hero = () => {
               }
               description=""
               button={
-                <ScrollLink to="ProjectWork" smooth={true} duration={500}>
+                <ScrollLink
+                  to="ProjectWork"
+                  smooth={true}
+                  duration={500}
+                  offset={-30}
+                >
                   <Button xl>See My Portfolio</Button>
                 </ScrollLink>
               }
