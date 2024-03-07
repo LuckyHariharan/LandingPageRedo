@@ -50,7 +50,7 @@ const Hero = () => {
             <HeroOneButton
               title={
                 <>
-                  {'Software Engineer\n'}
+                  {'Android Engineer\n'}
                   <br />
                   <span className="text-primary-500">
                     at{' '}
