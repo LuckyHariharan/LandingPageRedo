@@ -38,6 +38,7 @@ const VerticalFeatureRow: React.FC<IVerticalFeatureRowProps> = (props) => {
   const verticalFeatureClass = className(
     'flex',
     'flex-col',
+    'sm:flex-row',
     'sm:items-center',
     {
       'sm:flex-row-reverse': props.reverse,
