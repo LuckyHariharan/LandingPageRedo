@@ -17,14 +17,9 @@ interface CollapsibleFeatureProps {
 }
 
 // Define the CollapsibleFeature component with the correct return type
-const CollapsibleFeature: React.FC<CollapsibleFeatureProps> = ({
-  title,
-  description,
-  image,
-  imageAlt,
-  link,
-  github,
-}) => {
+const CollapsibleFeature: React.FC<
+  CollapsibleFeatureProps & { reverse?: boolean }
+> = ({ title, description, image, imageAlt, link, github, reverse }) => {
   return (
     <Disclosure>
       <VerticalFeatureRow
@@ -34,6 +29,7 @@ const CollapsibleFeature: React.FC<CollapsibleFeatureProps> = ({
         imageAlt={imageAlt}
         link={link}
         github={github}
+        reverse={reverse}
       />
     </Disclosure>
   );
@@ -52,6 +48,8 @@ const VerticalFeatures = () => {
     }
   }, [inView, controls]);
   return (
+    // modify the collapsible features so they alternate from image on one side and text desc/title on the other
+    // where the next one swaps the order of the image and text
     <motion.div ref={ref} initial={{ opacity: 0, y: 25 }} animate={controls}>
       <div id="ProjectWork">
         <Section
@@ -62,6 +60,7 @@ const VerticalFeatures = () => {
           <div className="space-y-8">
             {' '}
             <CollapsibleFeature
+              reverse
               title="Skillify Android App"
               description="Fully scoped and built the Skillify Android app. Developed essential components such as the lesson screen, badges screen, and a coaches screen. Distributed APK to students through the Skillify student portal."
               image="/assets/images/background3.png"
@@ -78,6 +77,7 @@ const VerticalFeatures = () => {
               github="https://github.com/LuckyHariharan/DiaryAI-NativeAndroid"
             />
             <CollapsibleFeature
+              reverse
               title="Actuarial Illustator  Extension"
               description="Actuarial Illustrator is an open source extension that calculates policy values for any given age, gender, or smoking status. In V1.03  users can upload their own actuarial tables for precise policy values."
               image="/assets/images/background1.png"
