@@ -44,7 +44,7 @@ const VerticalFeatureRow: React.FC<IVerticalFeatureRowProps> = (props) => {
       'sm:flex-row-reverse': props.reverse,
     },
   );
-  const showGithubLink = [
+  const hideGithubLink = [
     'AI Diary Android App',
     'Actuarial Illustator  Extension',
   ].includes(props.title);
@@ -59,7 +59,7 @@ const VerticalFeatureRow: React.FC<IVerticalFeatureRowProps> = (props) => {
           </h3>
         </a>
         <div className="mt-6 text-2xl leading-9">{props.description}</div>
-        {showGithubLink && (
+        {hideGithubLink && (
           <Link href={props.github}>
             <p className=" mt-4 cursor-pointer text-2xl font-extrabold text-blue-500 underline hover:text-blue-700">
               Github
