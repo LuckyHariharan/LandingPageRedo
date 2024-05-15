@@ -44,6 +44,11 @@ const VerticalFeatureRow: React.FC<IVerticalFeatureRowProps> = (props) => {
       'sm:flex-row-reverse': props.reverse,
     },
   );
+  const showGithubLink = [
+    'AI Diary Android App',
+    'Actuarial Illustator  Extension',
+  ].includes(props.title);
+
   return (
     <div className={verticalFeatureClass}>
       <div className="w-full px-8 text-center sm:w-1/2">
@@ -54,11 +59,13 @@ const VerticalFeatureRow: React.FC<IVerticalFeatureRowProps> = (props) => {
           </h3>
         </a>
         <div className="mt-6 text-2xl leading-9">{props.description}</div>
-        <Link href={props.github}>
-          <p className=" mt-4 cursor-pointer text-2xl font-extrabold text-blue-500 underline hover:text-blue-700">
-            Github
-          </p>
-        </Link>
+        {showGithubLink && (
+          <Link href={props.github}>
+            <p className=" mt-4 cursor-pointer text-2xl font-extrabold text-blue-500 underline hover:text-blue-700">
+              Github
+            </p>
+          </Link>
+        )}
       </div>
 
       <div className="size-full p-4 transition-transform hover:scale-105  hover:shadow-lg sm:w-1/2">
